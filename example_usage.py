@@ -1,5 +1,6 @@
 import pyshapes as ps
 
-radius = 5
+radius, base, height = 5, 10, 7
 
-ps.circumference(radius)
+print(ps.circumference(radius))
+print(ps.triangle_area(base, height))
