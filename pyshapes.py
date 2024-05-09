@@ -10,3 +10,5 @@ def sphere_volume(r):
   return (1.33*3.14)*(r**3)
 def pyramid_volume(l,w,h):
   return (l*w*h)/3
+def circle_area(r):
+  return 3.14 * (r*r)
